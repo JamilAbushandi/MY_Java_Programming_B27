@@ -108,4 +108,18 @@ otherwise print "Sleep mode"
     public void sharePicture() {
         System.out.println("Picture was shared");
     }
+
+    @Override
+    public String toString() {
+        return "Instagram{" +
+                "numberOfFollowers=" + numberOfFollowers +
+                ", numberOfFollowings=" + numberOfFollowings +
+                ", pictures=" + pictures +
+                ", personalURL='" + personalURL + '\'' +
+                ", accountLength=" + accountLength +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", fullName='" + fullName + '\'' +
+                '}' + "\n";
+    }
 }

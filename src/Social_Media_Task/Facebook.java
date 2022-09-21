@@ -177,7 +177,8 @@ o Notifications ()
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", fullName='" + fullName + '\'' +
-                '}';
+                '}' + "\n" ;
+
     }
 
 /*

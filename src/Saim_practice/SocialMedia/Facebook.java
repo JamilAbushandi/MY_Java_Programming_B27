@@ -136,6 +136,7 @@ public class Facebook extends SocialMedia{
     @Override
     public void post(Object media) {
       //  posts.add(new Post(""));
+
       //  posts.addAll(media);
     }
 
